@@ -33,7 +33,7 @@ function calculateLoveStrength() {
     // Erstelle das Popup-Fenster
     var popupContent = `
         <div id="lovePopup">
-            <img src="/love/assests/love.gif" width="fit-content" height="auto"></img>
+            <img src="thatzane.com/love/assests/love.gif" width="fit-content" height="auto"></img>
             <h2>Love Strength</h2>
             <p>${name1} and ${name2}</p>
             <p>Love Strength: ${loveStrength}%</p>
