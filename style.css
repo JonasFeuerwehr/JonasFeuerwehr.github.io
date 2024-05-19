@@ -14,7 +14,7 @@ body {
 #preloader {
   height: 100%;
   width: 100%;
-  background: white url('/love/assests/preloader.gif') no-repeat center center;
+  background: white url('thatzane.com/love/assests/preloader.gif') no-repeat center center;
   background-size: 10%;
   position: fixed;
   z-index: 100;
@@ -116,7 +116,7 @@ body {
   #preloader {
       height: 100%;
       width: 100%;
-      background: white url(/love/assests/preloader.gif) no-repeat center center;
+      background: white url(thatzane.com/love/assests/preloader.gif) no-repeat center center;
       background-size: 30%;
       position: fixed;
       z-index: 100;
