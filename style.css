@@ -1,0 +1,127 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.hdqwalls.com/wallpapers/a-lofi-romance-db.jpg') center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Preloader */
+#preloader {
+  height: 100%;
+  width: 100%;
+  background: white url('/love/assests/preloader.gif') no-repeat center center;
+  background-size: 10%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+
+/* Love Container */
+.love-container {
+  background-color: white;
+  color: #ff66a3; /* Dunkleres Pink */
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.love-container h1 {
+  font-size: 1.5em;
+}
+
+.love-container p {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* Textfelder und Calculate-Button */
+.love-container label,
+.love-container input,
+.love-container button {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+.love-container input {
+  padding: 10px;
+  border: 1px solid #ff66a3; /* Dunkleres Pink */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.love-container input:hover {
+  background-color: #ffe8ed;
+}
+
+.love-container button {
+  background-color: #ff66a3; /* Dunkleres Pink */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.love-container button:hover {
+  background-color: #e65c93; /* Dunkleres Pink */
+}
+
+/* Popup-Stil */
+.popup-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 101; /* Ãœber dem Preloader, der Z-Index ist 100 */
+  text-align: center;
+}
+
+.popup-container h2 {
+  color: #ff80a0; /* Pastellrosa Farbe */
+}
+
+.popup-container p {
+  margin: 10px 0;
+}
+
+.popup-container button {
+  background-color: #ff80a0; /* Pastellrosa Farbe */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+
+/* FÃ¼r Handys */
+@media only screen and (max-width: 1070px) {
+  body {
+      background-size: cover;
+  }
+
+  #preloader {
+      height: 100%;
+      width: 100%;
+      background: white url(/love/assests/preloader.gif) no-repeat center center;
+      background-size: 30%;
+      position: fixed;
+      z-index: 100;
+      left: 0px;
+      top: 0px;
+  }
+
+}
